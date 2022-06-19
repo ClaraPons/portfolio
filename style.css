@@ -19,87 +19,15 @@ header img{
     padding-left: 45px;
 }
 
-.top-nav {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #00BAF0;
-    background: linear-gradient(to left, #f46b45, #eea849);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    color: #FFF;
-    height: 50px;
-    padding: 1em;
-  }
-  
-  .menu {
-    display: flex;
-    flex-direction: row;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .menu > li {
-    margin: 0 1rem;
-    overflow: hidden;
-  }
-  
-  .menu-button-container {
-    display: none;
-    height: 100%;
-    width: 30px;
-    cursor: pointer;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  #menu-toggle {
-    display: none;
-  }
-  
-  .menu-button,
-  .menu-button::before,
-  .menu-button::after {
-    display: block;
-    background-color: #fff;
-    position: absolute;
-    height: 4px;
-    width: 30px;
-    transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
-    border-radius: 2px;
-  }
-  
-  .menu-button::before {
-    content: '';
-    margin-top: -8px;
-  }
-  
-  .menu-button::after {
-    content: '';
-    margin-top: 8px;
-  }
-  
-  #menu-toggle:checked + .menu-button-container .menu-button::before {
-    margin-top: 0px;
-    transform: rotate(405deg);
-  }
-  
-  #menu-toggle:checked + .menu-button-container .menu-button {
-    background: rgba(255, 255, 255, 0);
-  }
-  
-  #menu-toggle:checked + .menu-button-container .menu-button::after {
-    margin-top: 0px;
-    transform: rotate(-405deg);
-  }
-
 nav{
     display:flex;
     align-items: center;
     gap:100px;
     padding-right: 45px;
+}
+
+nav a:hover{
+    text-decoration: underline;
 }
 
 header a{
@@ -133,6 +61,15 @@ header a{
     padding-top: 15px;
     color: grey;
 }
+
+.homepage-left p:hover{
+    text-decoration: underline;
+}
+
+.icone-left a,.icone-right a{
+    text-decoration: none;
+}
+
 
 .homepage-left img{
     width: 35%;
@@ -466,6 +403,15 @@ header a{
     border-radius: 20px;
 }
 
+.telecharger img:hover{
+    border: 2px solid #96D1C5;
+}
+
+.telecharger a{
+    display: flex;
+    justify-content: center;
+}
+
 .telecharger{
     display: flex;
     flex-direction: column;
@@ -528,6 +474,18 @@ header a{
     font-size: 13px;
     background-color: white;
     color: grey;
+}
+
+.contact div:hover{
+    background-color: white;
+    color: #96D1C5;
+    cursor: pointer;
+}
+
+.Github div:hover{
+    background-color: white;
+    color: #96D1C5;
+    cursor: pointer;
 }
 
 footer{

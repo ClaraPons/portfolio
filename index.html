@@ -15,10 +15,10 @@
 <header> 
     <img alt="logo" src="./img/logo.png" />
     <nav class="menu">
-        <a href="#">Mes projets</a>
-        <a href="#">Mes compétences</a>
-        <a href="#">Me contacter</a>
-        <a href="#">Mon CV</a>
+        <a href="#ancre-pro">Mes projets</a>
+        <a href="#ancre-skills">Mes compétences</a>
+        <a href="#ancre-contact">Me contacter</a>
+        <a target="_blank" href="./PONS-Clara--CV-Dev-Web.pdf">Mon CV</a>
     </nav>
 </header>
 <main>
@@ -26,26 +26,26 @@
         <section class="homepage-left">
             <section class="icone-left">
                 <article class="projets">
-                    <img alt="projets" src="./img/projets.png">
-                    <p>Mes projets</p>
+                    <a href="#ancre-pro"><img alt="projets" src="./img/projets.png"></a>
+                    <a href="#ancre-pro"><p>Mes projets</p></a>
                 </article>
                 <article class="competences">
-                    <img alt="competences" src="./img/skills.png">
-                    <p>Mes compétences</p>
+                    <a href="#ancre-skills"><img alt="competences" src="./img/skills.png"></a>
+                    <a href="#ancre-skills"><p>Mes compétences</p></a>
                 </article>
                 <article class="contact">
-                    <img alt="contact" src="./img/email.png">
-                    <p>Me contacter</p>
+                    <a href="#ancre-contact"><img alt="contact" src="./img/email.png"></a>
+                    <a href="#ancre-contact"><p>Me contacter</p></a>
                 </article>
             </section>
             <section class="icone-right">
                 <article class="cv">
-                    <img alt="cv" src="./img/CV.png">
-                    <p>Mon CV</p>
+                    <a target="_blank" href="./PONS-Clara--CV-Dev-Web.pdf"><img alt="cv" src="./img/CV.png"></a>
+                    <a target="_blank" href="./PONS-Clara--CV-Dev-Web.pdf"><p>Mon CV</p></a>
                 </article>
                 <article class="picture">
-                    <img alt="picture" src="./img/photo.png" />
-                    <p>Ma photo</p>
+                    <a target="_blank" href="./img/photo.png"><img alt="picture" src="./img/photo.png" /></a>
+                    <a target="_blank" href="./img/photo.png"><p>Ma photo</p></a>
                 </article>
             </section>
         </section>
@@ -73,7 +73,7 @@
                 </article>
                 <article class="play-contains">
                     <h2>Découvrez mon portfolio en cliquant sur PLAY !</h2>
-                    <a href="#"><button class="b1" type="button">PLAY</button></a>
+                    <a href="#ancre-pro"><button class="b1" type="button">PLAY</button></a>
                 </article>
             </section>
             <section class="langages">
@@ -90,17 +90,17 @@
     </section>
     <div class="ligne"></div>
     <section class="portfolio-global">
-        <h1>Mes projets</h1>
+        <h1 id="ancre-pro">Mes projets</h1>
         <section class="portfolio-columns">
             <article class="portfolio-left">
-                <a href="https://clarapons.github.io/deezer-v1/"><img alt="cuizine" src="./img/cuizine.png"/></a>  
-                <a href="https://clarapons.github.io/deezer-v1/"><img alt="deezer" src="./img/deezer.png"/></a>   
+                <a target="_blank" href="https://clarapons.github.io/deezer-v1/"><img alt="cuizine" src="./img/cuizine.png"/></a>  
+                <a target="_blank" href="https://clarapons.github.io/deezer-v1/"><img alt="deezer" src="./img/deezer.png"/></a>   
             </article>
         </section>
     </section>
     <div class="ligne"></div>
     <section class="skills-global">
-        <h1>Mes compétences</h1>
+        <h1 id="ancre-skills">Mes compétences</h1>
         <section class="skills-columns">
             <section class="skills">
                 <article>
@@ -138,14 +138,14 @@
             <section class="CV">
                 <article class="telecharger">
                     <h3>Télécharger mon CV ici<br><br><span>&#9660;</span></h3>
-                    <img alt="cv" src="./img/cv2.png"/>
+                    <a target="_blank" href="./PONS-Clara--CV-Dev-Web.pdf"><img alt="cv" src="./img/cv2.png"/></a>
                 </article>
             </section>
         </section>
     </section>
     <div class="ligne"></div>
     <section class="contact-global">
-        <h1>Me contacter</h1>
+        <h1 id="ancre-contact">Me contacter</h1>
             <section class="contact-columns">
                 <article class="contact">
                     <ul>
