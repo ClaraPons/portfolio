@@ -1,0 +1,461 @@
+@font-face {
+    font-family: "Roboto";
+    src: url(./police/RobotoMono-VariableFont_wght.ttf);
+}
+
+body{
+    background-color: #FFFCF2;
+}
+
+header{
+    background-color: #F37779;
+    display: flex;
+    justify-content: space-between;
+}
+
+header img{
+    width: 5%;
+    height: auto;
+    padding-left: 45px;
+}
+
+nav{
+    display:flex;
+    align-items: center;
+    gap:100px;
+    padding-right: 45px;
+}
+
+header a{
+    font-family: "Roboto",Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    font-weight: 200;
+}
+
+.homepage-global{
+    display: flex;
+    padding: 50px 20px 150px 60px;
+}
+
+.ligne{
+    width: 2px;
+    height: 2px;
+    padding: 0px 500px;
+    margin-left: 300px;
+    background-color: rgba(248,174,176,0.75);
+}
+
+.homepage-left{
+    display: flex;
+    font-family: "Roboto",Arial, Helvetica, sans-serif;
+    color: grey;
+}
+
+.homepage-left p{
+    padding-top: 15px;
+    color: grey;
+}
+
+.homepage-left img{
+    width: 35%;
+}
+
+.icone-left, .icone-right{
+    display: flex;
+    flex-direction: column;
+    gap: 110px;
+    padding-right: 5%;
+}
+
+.picture img{
+    border: 1px solid #F37779;
+    box-shadow: 6px 6px 0px 0px rgba(248,174,176,0.75);}
+
+.ml11 {
+    font-weight: 700;
+    font-size: 3.5em;
+  }
+  
+  .ml11 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.1em;
+    padding-right: 0.05em;
+    padding-bottom: 0.15em;
+    padding: 0px 20px;
+    font-size: 18px;
+    line-height: 170%;
+    font-family: "Roboto",Arial, Helvetica, sans-serif;
+    color: grey;
+  }
+  
+  .ml11 .line1 {
+    opacity: 0.5;
+    position: absolute;
+    left: 10;
+    height: 100%;
+    width: 0.1px;
+    background-color: white;
+    transform-origin: 0 50%;
+    
+  }
+  
+  .ml11 .line1 { 
+    top: 0; 
+    left: 0;
+  }
+  
+  .ml11 .letter {
+    display: inline-block;
+    line-height: 1em;
+  }
+ 
+
+  .homepage-right{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:  center;
+    text-align: center;
+    width: 1000px;
+    position: relative;
+}
+
+
+  .presentation{
+      position: absolute;
+      right: 400px;
+      padding-bottom: 60px;
+  }
+
+  .presentation-structure{
+    position: relative;
+}
+
+    .play{
+        position: absolute;
+        top: 300px;
+        right: 300px;
+
+}
+
+  .circle1, .circle2{
+    position: absolute;
+    top: 4px;
+    left: 5px;
+    width: 10px;
+    height: 10px;
+    background-color: #D9D9D9;
+    border-radius: 5px;
+}
+
+.circle1{
+    left: 22px;
+}
+
+.presentation-contains{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    background-color: white;
+    border: 2px solid #96D1C5;
+    width: 435px;
+    height: 200px;
+    box-shadow: 10px 10px 0px 0px rgba(248,174,176,0.75);
+}
+
+
+  .rectangle1{
+    width: 439px;
+    height: 20px;
+    background-color: #96D1C5;
+
+  }
+
+
+.rectangle2{
+    width: 645px;
+    height: 20px;
+    background-color: #96D1C5;
+
+  }
+
+  .play-structure{
+    display: flex;
+    position: relative;
+}
+
+  .circle3, .circle4{
+    position: absolute;
+    top: 4px;
+    left: 5px;
+    width: 10px;
+    height: 10px;
+    background-color: #D9D9D9;
+    border-radius: 5px;
+}
+
+.circle4{
+    left: 22px;
+}
+
+.play-contains{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    background-color: white;
+    border: 2px solid #96D1C5;
+    width: 640px;
+    height: 200px;
+    box-shadow: 10px 10px 0px 0px rgba(248,174,176,0.75);
+}
+
+.play-contains h2{
+    padding: 0px 20px;
+    font-size: 20px;
+    line-height: 170%;
+    font-family: "Roboto",Arial, Helvetica, sans-serif;
+    color: grey;
+
+}
+
+.play-contains button{
+    font-family: "Roboto",Arial, Helvetica, sans-serif;
+    background-color: #F37779;
+    border: none;
+    width: 300px;
+    height: 37px;
+    cursor: pointer;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.play-contains button:hover{ 
+    -webkit-transform: scale(0.9); 
+    -ms-transform: scale(0.9); 
+    transform: scale(0.9); 
+    animation-duration: 1s; 
+    transition-duration: 1s; 
+    transition-property: 1s; 
+}
+
+.langages{
+    position: absolute;
+    top: 120px;
+    right: 100px;
+}
+
+
+.rectangle3{
+    width: 254px;
+    height: 20px;
+    background-color: #96D1C5;
+  }
+
+  .langage-structure{
+    display: flex;
+    position: relative;
+}
+
+  .circle5, .circle6{
+    position: absolute;
+    top: 4px;
+    left: 5px;
+    width: 10px;
+    height: 10px;
+    background-color: #D9D9D9;
+    border-radius: 5px;
+}
+
+.circle5{
+    left: 22px;
+}
+
+.langage-contains{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    background-color: white;
+    border: 2px solid #96D1C5;
+    width: 250px;
+    height: 180px;
+    box-shadow: 10px 10px 0px 0px rgba(248,174,176,0.75);
+}
+
+.langage-contains h2{
+    padding: 0px 20px;
+    font-size: 15px;
+    line-height: 170%;
+    font-family: "Roboto",Arial, Helvetica, sans-serif;
+    color: grey;
+    font-weight: 200;
+}
+
+.portfolio-global{
+    padding: 30px 0px 200px 0px;
+}
+
+.portfolio-global h1{
+    font-family: "Roboto",Arial, Helvetica, sans-serif;
+    color: #F37779;
+    font-size: 90px;
+    padding:30px;
+    text-transform: uppercase;
+}
+
+.portfolio-global img{
+    width: 600px;
+    box-shadow: 17px 17px 0px 0px rgba(248,174,176,0.75);
+    border: 1px solid rgba(248,174,176,0.75);
+}
+
+.portfolio-left{
+    display: flex;
+    justify-content: center;
+    gap: 180px;
+    padding: 30px 100px;
+}
+
+.skills-global h1{
+    font-family: "Roboto",Arial, Helvetica, sans-serif;
+    color: #F37779;
+    font-size: 90px;
+    padding:30px;
+    text-transform: uppercase;
+    text-align: right;
+}
+
+.skills-global{
+    padding: 30px 0px 50px 0px;
+}
+
+.skills-columns{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 80px;
+}
+
+.skills li{
+    display: flex;
+    justify-content:flex-end;
+    gap: 300px;
+    padding-bottom: 40px;
+}
+
+.skills p{
+    font-size: 25px;
+    font-family: "Roboto",Arial, Helvetica, sans-serif;
+    color: #F37779;
+    font-weight: 900;
+}
+
+.skills progress {
+    background-color: #FFFCF2;
+}
+
+.skills progress::-webkit-progress-value {
+    background: #96D1C5;
+    border-radius: 20px;
+}
+
+.skills progress::-webkit-progress-bar {
+    background: white;
+    border: 1px solid #96D1C5;
+    border-radius: 20px;
+}
+
+.telecharger h3{
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 17px;
+  font-family: "Roboto",Arial, Helvetica, sans-serif;
+  color: grey;
+  font-weight: 900;
+}
+
+.telecharger img{
+    width: 50%;
+    border: 1px solid grey;
+    border-radius: 20px;
+}
+
+.telecharger{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.contact-global{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 0px 110px 0px;
+}
+
+.contact-global h1{
+    font-family: "Roboto",Arial, Helvetica, sans-serif;
+    color: #F37779;
+    font-size: 90px;
+    padding:40px;
+    text-transform: uppercase;
+    text-align: right;
+}
+
+.contact li p{
+    font-size: 20px;
+    font-family: "Roboto",Arial, Helvetica, sans-serif;
+    color: #96D1C5;
+    font-weight: 900;
+    padding: 20px 0px;
+}
+
+.Github p{
+    font-size: 20px;
+    font-family: "Roboto",Arial, Helvetica, sans-serif;
+    color: #96D1C5;
+    font-weight: 900;
+    padding: 50px 0px 40px 0px;
+}
+
+.contact button, .Github button{
+    border: 3px solid #96D1C5;
+    border-radius: 39px;
+    font-size: 14px;
+    background-color: #96D1C5;
+    padding: 5px 35px ;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.contact div, .Github div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10px;
+    font-family: "Roboto",Arial, Helvetica, sans-serif;
+    border: 2px solid #96D1C5;
+    border-radius: 39px;
+    font-size: 13px;
+    background-color: white;
+    color: grey;
+}
+
+  @media (min-width: 768px) {
+      .burger{
+          display: none;
+      }
+  }
