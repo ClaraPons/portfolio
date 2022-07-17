@@ -339,6 +339,13 @@ header a{
     padding: 30px 100px;
 }
 
+.portfolio-down{
+    display: flex;
+    justify-content: center;
+    gap: 180px;
+    padding: 30px 100px;
+}
+
 .skills-global h1{
     font-family: "Roboto",Arial, Helvetica, sans-serif;
     color: #F37779;
@@ -533,6 +540,13 @@ footer{
         gap:100px;
     }
 
+    .portfolio-down{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap:100px;
+    }
+
 
 .skills li {
     gap: 90px;
@@ -583,6 +597,13 @@ header img{
 }
 
 .portfolio-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:100px;
+}
+
+.portfolio-down{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -680,6 +701,19 @@ nav{
     width: 450px;
 }
 
+.portfolio-down{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:100px;
+}
+
+.portfolio-down img{
+    width: 450px;
+}
+
+
 .portfolio-global H1{
     font-size: 50px;
 }
@@ -748,6 +782,10 @@ nav{
       }
     
       .portfolio-left img{
+        width: 350px;
+    }
+
+    .portfolio-down img{
         width: 350px;
     }
     
